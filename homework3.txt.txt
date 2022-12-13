@@ -1,0 +1,16 @@
+   0 cd /
+   1 mkdir -p /opt/task/
+   2 date > /opt/task/start.txt
+   3 df -h
+   4 df -h awk '{print $3}' | head -2 | tail -1
+   5 df -h | awk '{print $3}' | head -2 | tail -1
+   6 df -h | awk '{print $3}' | head -2 | tail -1 | grep 2.3
+   7 df -h | awk '{print $3}' | head -2 | tail -1 >> /opt/task/start.txt
+   8 history | tail -5 >> /opt/task/start.txt
+   9 nano /opt/task/start.txt
+  10 cat /proc/cpuinfo
+  11 cat /proc/cpuinfo | head -2 | tail -1
+  12 cat /proc/cpuinfo | head -2 | tail -1 | awk '{print $3}'
+  13 cat /proc/cpuinfo | head -2 | tail -1 | awk '{print $3}' >> /opt/task/star>
+  14 nano /opt/task/start.txt
+  15 history >> homework3.txt
